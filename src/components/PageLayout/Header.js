@@ -4,7 +4,6 @@ import { useAuth } from "../../lib/auth";
 
 const Header = () => {
   const { signOut, user } = useAuth();
-
   return (
     <div className='py-3 border-bottom bg-light '>
       <div className='container d-flex justify-content-between align-items-center'>
